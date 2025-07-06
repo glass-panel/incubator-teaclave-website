@@ -1,0 +1,26 @@
+{
+  "id": "my-first-function",
+  "title": "My First Function",
+  "description": "This documentation will guide you through executing your first function on the",
+  "source": "@site/docs/my-first-function.md",
+  "sourceDirName": ".",
+  "slug": "/my-first-function",
+  "permalink": "/docs/my-first-function",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/my-first-function.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/my-first-function"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mutual Attestation: Why and How",
+    "permalink": "/docs/mutual-attestation"
+  },
+  "next": {
+    "title": "Papers, Talks, and Related Articles",
+    "permalink": "/docs/papers-talks"
+  }
+}

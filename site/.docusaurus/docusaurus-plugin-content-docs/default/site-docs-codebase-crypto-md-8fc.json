@@ -1,0 +1,26 @@
+{
+  "id": "codebase/crypto",
+  "title": "Crypto Primitives",
+  "description": "This directory hosts all the implementations of cryptographic primitives used in",
+  "source": "@site/docs/codebase/crypto.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/crypto",
+  "permalink": "/docs/codebase/crypto",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/crypto.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/crypto"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configurations in Teaclave",
+    "permalink": "/docs/codebase/config"
+  },
+  "next": {
+    "title": "Data Center Attestation Service",
+    "permalink": "/docs/codebase/dcap"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "trustzone-sdk-docs/docs/debugging-optee-ta",
+  "title": "Debugging OP-TEE TA",
+  "description": "When developing applications, it is inevitable that there will be a need for",
+  "source": "@site/docs/trustzone-sdk-docs/docs/debugging-optee-ta.md",
+  "sourceDirName": "trustzone-sdk-docs/docs",
+  "slug": "/trustzone-sdk-docs/docs/debugging-optee-ta",
+  "permalink": "/docs/trustzone-sdk-docs/docs/debugging-optee-ta",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/trustzone-sdk-docs/docs/debugging-optee-ta.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/trustzone-sdk-docs/debugging-optee-ta.md"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Rust CA as Android ELF",
+    "permalink": "/docs/trustzone-sdk-docs/docs/building-rust-ca-as-android-elf"
+  },
+  "next": {
+    "title": "🚀 Quick Start For QEMU Emulation",
+    "permalink": "/docs/trustzone-sdk-docs/docs/emulate-and-dev-in-docker"
+  }
+}

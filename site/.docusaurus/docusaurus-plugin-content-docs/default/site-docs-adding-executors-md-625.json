@@ -1,0 +1,26 @@
+{
+  "id": "adding-executors",
+  "title": "Adding Executors",
+  "description": "Teaclave supports several function executors currently: builtin, mesapy and",
+  "source": "@site/docs/adding-executors.md",
+  "sourceDirName": ".",
+  "slug": "/adding-executors",
+  "permalink": "/docs/adding-executors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/adding-executors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/adding-executors"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Access Control in Teaclave",
+    "permalink": "/docs/access-control"
+  },
+  "next": {
+    "title": "Deploying Teaclave on Azure Confidential Computing Virtual Machines",
+    "permalink": "/docs/azure-confidential-computing"
+  }
+}

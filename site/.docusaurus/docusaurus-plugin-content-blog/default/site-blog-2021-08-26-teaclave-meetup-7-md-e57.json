@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2021/08/26/teaclave-meetup-7",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2021-08-26-teaclave-meetup-7.md",
+  "source": "@site/blog/2021-08-26-teaclave-meetup-7.md",
+  "title": "Teaclave Meetup #7",
+  "description": "In Aug 26, we gathered on Zoom for the 7th Teaclave meetup. In this meetup,",
+  "date": "2021-08-26T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mingshen Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Teaclave Meetup #7",
+    "date": "2021-08-26T00:00:00.000Z",
+    "author": "Mingshen Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Announcing Apache Teaclave (incubating) 0.3.0",
+    "permalink": "/blog/2021/10/01/announcing-teaclave-0.3.0"
+  },
+  "nextItem": {
+    "title": "使用 Teaclave SGX SDK 开发 SGX 应用",
+    "permalink": "/blog/2021/08/25/developing-sgx-application-with-teaclave-sgx-sdk"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "codebase/examples",
+  "title": "Examples",
+  "description": "In this directory, we implement some examples to illustrate how to register",
+  "source": "@site/docs/codebase/examples.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/examples",
+  "permalink": "/docs/codebase/examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/examples.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/examples"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Teaclave Documentation",
+    "permalink": "/docs/codebase/docs"
+  },
+  "next": {
+    "title": "Function Executors",
+    "permalink": "/docs/codebase/executor"
+  }
+}

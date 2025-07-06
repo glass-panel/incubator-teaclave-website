@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2021/10/15/developing-teaclave-application-with-teaclave-trustzone-sdk",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2021-10-15-developing-teaclave-application-with-teaclave-trustzone-sdk.md",
+  "source": "@site/blog/2021-10-15-developing-teaclave-application-with-teaclave-trustzone-sdk.md",
+  "title": "使用 Teaclave TrustZone SDK 开发 TrustZone 应用",
+  "description": "[[TOC]]",
+  "date": "2021-10-15T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Wenwen Ruan",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "使用 Teaclave TrustZone SDK 开发 TrustZone 应用",
+    "date": "2021-10-15T00:00:00.000Z",
+    "author": "Wenwen Ruan"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Security Advisory of SmashEx and CVE-2021-0186",
+    "permalink": "/blog/2021/11/01/security-advisory-of-smashex-and-cve-2021-0186"
+  },
+  "nextItem": {
+    "title": "Teaclave Meetup #8",
+    "permalink": "/blog/2021/10/14/teaclave-meetup-8"
+  }
+}

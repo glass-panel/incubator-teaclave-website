@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2021/06/04/accepting-rust-optee-trustzone-sdk-proposal",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2021-06-04-accepting-rust-optee-trustzone-sdk-proposal.md",
+  "source": "@site/blog/2021-06-04-accepting-rust-optee-trustzone-sdk-proposal.md",
+  "title": "Accepting Rust OP-TEE TrustZone SDK to Apache Teaclave (incubating) Proposal",
+  "description": "Abstract",
+  "date": "2021-06-04T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "The Teaclave PPMC",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Accepting Rust OP-TEE TrustZone SDK to Apache Teaclave (incubating) Proposal",
+    "date": "2021-06-04T00:00:00.000Z",
+    "author": "The Teaclave PPMC"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Announcing Apache Teaclave TrustZone SDK (incubating) 0.1.0",
+    "permalink": "/blog/2021/06/16/announcing-teaclave-trustzone-sdk-0.1.0"
+  },
+  "nextItem": {
+    "title": "Teaclave Meetup #4",
+    "permalink": "/blog/2021/04/29/teaclave-meetup-4"
+  }
+}

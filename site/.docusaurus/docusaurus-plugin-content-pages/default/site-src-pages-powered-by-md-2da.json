@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/powered-by",
+  "source": "@site/src/pages/powered-by.md",
+  "title": "Powered By",
+  "description": "Apache Teaclave (including the FaaS platform, SGX SDK, and TrustZone SDK) is",
+  "frontMatter": {
+    "permalink": "/powered-by",
+    "sidebar": false
+  },
+  "unlisted": false
+}

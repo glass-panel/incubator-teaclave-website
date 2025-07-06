@@ -1,0 +1,26 @@
+{
+  "id": "codebase/attestation",
+  "title": "Attestation in Teaclave",
+  "description": "This directory contains the implementation of the attestation in Apache",
+  "source": "@site/docs/codebase/attestation.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/attestation",
+  "permalink": "/docs/codebase/attestation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/attestation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/attestation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Add Built-in Functions",
+    "permalink": "/docs/builtin-functions"
+  },
+  "next": {
+    "title": "Binder",
+    "permalink": "/docs/codebase/binder"
+  }
+}

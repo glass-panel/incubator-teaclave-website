@@ -1,0 +1,26 @@
+{
+  "id": "trustzone-sdk-docs/docs/emulate-and-dev-in-docker",
+  "title": "🚀 Quick Start For QEMU Emulation",
+  "description": "This guide walks you through building and running QEMU emulation using the",
+  "source": "@site/docs/trustzone-sdk-docs/docs/emulate-and-dev-in-docker.md",
+  "sourceDirName": "trustzone-sdk-docs/docs",
+  "slug": "/trustzone-sdk-docs/docs/emulate-and-dev-in-docker",
+  "permalink": "/docs/trustzone-sdk-docs/docs/emulate-and-dev-in-docker",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/trustzone-sdk-docs/docs/emulate-and-dev-in-docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/trustzone-sdk-docs/dev-and-emulate-in-docker.md"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Debugging OP-TEE TA",
+    "permalink": "/docs/trustzone-sdk-docs/docs/debugging-optee-ta"
+  },
+  "next": {
+    "title": "Expanding TA Secure Memory on QEMUv8",
+    "permalink": "/docs/trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "codebase/runtime",
+  "title": "Executor Runtime",
+  "description": "This directory contains implementations of executor's runtime. The executor",
+  "source": "@site/docs/codebase/runtime.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/runtime",
+  "permalink": "/docs/codebase/runtime",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/runtime.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/runtime"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RPC",
+    "permalink": "/docs/codebase/rpc"
+  },
+  "next": {
+    "title": "Client SDK",
+    "permalink": "/docs/codebase/sdk"
+  }
+}

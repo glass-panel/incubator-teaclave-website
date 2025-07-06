@@ -1,0 +1,26 @@
+{
+  "id": "trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8",
+  "title": "Expanding TA Secure Memory on QEMUv8",
+  "description": "Since some Rust examples such as tlsserver-rs and tlsclient-rs  require",
+  "source": "@site/docs/trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8.md",
+  "sourceDirName": "trustzone-sdk-docs/docs",
+  "slug": "/trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8",
+  "permalink": "/docs/trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/trustzone-sdk-docs/expanding-ta-secure-memory-on-qemuv8.md"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🚀 Quick Start For QEMU Emulation",
+    "permalink": "/docs/trustzone-sdk-docs/docs/emulate-and-dev-in-docker"
+  },
+  "next": {
+    "title": "migrating-to-new-building-env",
+    "permalink": "/docs/trustzone-sdk-docs/docs/migrating-to-new-building-env"
+  }
+}

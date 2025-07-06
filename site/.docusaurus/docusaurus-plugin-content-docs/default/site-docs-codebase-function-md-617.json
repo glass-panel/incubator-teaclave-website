@@ -1,0 +1,26 @@
+{
+  "id": "codebase/function",
+  "title": "Built-in Functions",
+  "description": "Since Teaclave is a FaaS-like platform, users can define and register customized",
+  "source": "@site/docs/codebase/function.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/function",
+  "permalink": "/docs/codebase/function",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/function.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/function"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "File Agent",
+    "permalink": "/docs/codebase/file_agent"
+  },
+  "next": {
+    "title": "Logger",
+    "permalink": "/docs/codebase/logger"
+  }
+}

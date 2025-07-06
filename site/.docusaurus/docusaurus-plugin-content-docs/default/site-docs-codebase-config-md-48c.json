@@ -1,0 +1,26 @@
+{
+  "id": "codebase/config",
+  "title": "Configurations in Teaclave",
+  "description": "This Teaclave Config describes all sorts of configurations in the platform. All",
+  "source": "@site/docs/codebase/config.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/config",
+  "permalink": "/docs/codebase/config",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/config"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Common Libraries",
+    "permalink": "/docs/codebase/common"
+  },
+  "next": {
+    "title": "Crypto Primitives",
+    "permalink": "/docs/codebase/crypto"
+  }
+}

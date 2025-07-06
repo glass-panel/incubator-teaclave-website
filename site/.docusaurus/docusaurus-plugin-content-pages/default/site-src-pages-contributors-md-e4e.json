@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/contributors",
+  "source": "@site/src/pages/contributors.md",
+  "title": "Contributors",
+  "description": "Teaclave adopts The Apache Way.",
+  "frontMatter": {
+    "permalink": "/contributors",
+    "sidebar": false
+  },
+  "unlisted": false
+}

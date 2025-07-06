@@ -1,0 +1,26 @@
+{
+  "id": "codebase/types",
+  "title": "Types",
+  "description": "This directory defines common types (useful structs and traits) such as file,",
+  "source": "@site/docs/codebase/types.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/types",
+  "permalink": "/docs/codebase/types",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/types.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/types"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tools",
+    "permalink": "/docs/codebase/tools"
+  },
+  "next": {
+    "title": "Teaclave Worker",
+    "permalink": "/docs/codebase/worker"
+  }
+}

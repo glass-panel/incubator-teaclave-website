@@ -1,4 +1,4 @@
-dist
+build
 teaclave
 teaclave-sgx-sdk
 teaclave-trustzone-sdk

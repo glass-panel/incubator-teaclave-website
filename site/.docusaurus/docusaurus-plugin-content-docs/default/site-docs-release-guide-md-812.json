@@ -1,0 +1,26 @@
+{
+  "id": "release-guide",
+  "title": "Release Guide",
+  "description": "This document guide you through how to prepare and publish an official release.",
+  "source": "@site/docs/release-guide.md",
+  "sourceDirName": ".",
+  "slug": "/release-guide",
+  "permalink": "/docs/release-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/release-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/release-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Papers, Talks, and Related Articles",
+    "permalink": "/docs/papers-talks"
+  },
+  "next": {
+    "title": "Rust Development Guideline",
+    "permalink": "/docs/rust-guideline"
+  }
+}

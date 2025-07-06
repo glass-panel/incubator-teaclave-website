@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2022/06/29/teaclave-meetup-13",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2022-06-29-teaclave-meetup-13.md",
+  "source": "@site/blog/2022-06-29-teaclave-meetup-13.md",
+  "title": "Teaclave Meetup #13",
+  "description": "Agenda",
+  "date": "2022-06-29T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mingshen Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Teaclave Meetup #13",
+    "date": "2022-06-29T00:00:00.000Z",
+    "author": "Mingshen Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Accepting JavaEnclave to Apache Teaclave (incubating) Proposal",
+    "permalink": "/blog/2022/10/08/accepting-java-enclave-proposal"
+  },
+  "nextItem": {
+    "title": "Podling Teaclave Report - May 2022",
+    "permalink": "/blog/2022/05/01/podling-teaclave-report-may-2022"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "codebase/third_party",
+  "title": "Third-Party Dependency Vendoring",
+  "description": "For Teaclave, since all SGX/enclave dependencies are part of trusted computing base (TCB),",
+  "source": "@site/docs/codebase/third_party.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/third_party",
+  "permalink": "/docs/codebase/third_party",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/third_party.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/third-party"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Test Harness and Test Cases",
+    "permalink": "/docs/codebase/tests"
+  },
+  "next": {
+    "title": "Tools",
+    "permalink": "/docs/codebase/tools"
+  }
+}

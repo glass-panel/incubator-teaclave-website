@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2021/03/15/welcome-rust-optee-trustzone-sdk",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2021-03-15-welcome-rust-optee-trustzone-sdk.md",
+  "source": "@site/blog/2021-03-15-welcome-rust-optee-trustzone-sdk.md",
+  "title": "Welcome Rust OP-TEE TrustZone SDK to Teaclave",
+  "description": "English | 中文",
+  "date": "2021-03-15T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mingshen Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Welcome Rust OP-TEE TrustZone SDK to Teaclave",
+    "date": "2021-03-15T00:00:00.000Z",
+    "author": "Mingshen Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "欢迎 Rust OP-TEE TrustZone SDK 成为 Teaclave 子项目",
+    "permalink": "/blog/2021/03/15/welcome-rust-optee-trustzone-sdk-cn"
+  },
+  "nextItem": {
+    "title": "Apache Teaclave (incubating) 0.2.0 发布",
+    "permalink": "/blog/2021/03/02/announcing-teaclave-0.2.0-cn"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "trustzone-sdk-docs/docs/overview-of-optee-rust-examples",
+  "title": "Overview of OP-TEE Rust Examples",
+  "description": "All OP-TEE Rust examples are suffixed with -rs, which work as standalone host",
+  "source": "@site/docs/trustzone-sdk-docs/docs/overview-of-optee-rust-examples.md",
+  "sourceDirName": "trustzone-sdk-docs/docs",
+  "slug": "/trustzone-sdk-docs/docs/overview-of-optee-rust-examples",
+  "permalink": "/docs/trustzone-sdk-docs/docs/overview-of-optee-rust-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/trustzone-sdk-docs/docs/overview-of-optee-rust-examples.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/trustzone-sdk-docs/overview-of-optee-rust-examples"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "migrating-to-new-building-env",
+    "permalink": "/docs/trustzone-sdk-docs/docs/migrating-to-new-building-env"
+  },
+  "next": {
+    "title": "writing-rust-tas-using-optee-utee-build",
+    "permalink": "/docs/trustzone-sdk-docs/docs/writing-rust-tas-using-optee-utee-build"
+  }
+}

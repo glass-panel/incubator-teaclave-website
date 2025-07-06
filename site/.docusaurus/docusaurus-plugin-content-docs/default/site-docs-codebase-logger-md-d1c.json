@@ -1,0 +1,26 @@
+{
+  "id": "codebase/logger",
+  "title": "Logger",
+  "description": "A logger for Teaclave services. It can collect logs to a buffer.",
+  "source": "@site/docs/codebase/logger.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/logger",
+  "permalink": "/docs/codebase/logger",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/logger.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/logger"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Built-in Functions",
+    "permalink": "/docs/codebase/function"
+  },
+  "next": {
+    "title": "RPC",
+    "permalink": "/docs/codebase/rpc"
+  }
+}

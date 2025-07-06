@@ -1,0 +1,26 @@
+{
+  "id": "papers-talks",
+  "title": "Papers, Talks, and Related Articles",
+  "description": "This document tracks papers, talks, and related articles around Teaclave and its",
+  "source": "@site/docs/papers-talks.md",
+  "sourceDirName": ".",
+  "slug": "/papers-talks",
+  "permalink": "/docs/papers-talks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/papers-talks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/papers-talks"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "My First Function",
+    "permalink": "/docs/my-first-function"
+  },
+  "next": {
+    "title": "Release Guide",
+    "permalink": "/docs/release-guide"
+  }
+}

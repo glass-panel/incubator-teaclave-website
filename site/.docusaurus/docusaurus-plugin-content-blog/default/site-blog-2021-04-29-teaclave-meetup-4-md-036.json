@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2021/04/29/teaclave-meetup-4",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2021-04-29-teaclave-meetup-4.md",
+  "source": "@site/blog/2021-04-29-teaclave-meetup-4.md",
+  "title": "Teaclave Meetup #4",
+  "description": "In April 29, we gathered in Zoom for the third monthly Teaclave meetup. In this",
+  "date": "2021-04-29T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mingshen Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Teaclave Meetup #4",
+    "date": "2021-04-29T00:00:00.000Z",
+    "author": "Mingshen Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Accepting Rust OP-TEE TrustZone SDK to Apache Teaclave (incubating) Proposal",
+    "permalink": "/blog/2021/06/04/accepting-rust-optee-trustzone-sdk-proposal"
+  },
+  "nextItem": {
+    "title": "Podling Teaclave Report - April 2021",
+    "permalink": "/blog/2021/04/10/podling-teaclave-report-april-2021"
+  }
+}

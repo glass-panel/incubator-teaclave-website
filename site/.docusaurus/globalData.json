@@ -1,0 +1,453 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "access-control",
+              "path": "/docs/access-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adding-executors",
+              "path": "/docs/adding-executors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "azure-confidential-computing",
+              "path": "/docs/azure-confidential-computing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "build-system",
+              "path": "/docs/build-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "builtin-functions",
+              "path": "/docs/builtin-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/attestation",
+              "path": "/docs/codebase/attestation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/binder",
+              "path": "/docs/codebase/binder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/cli",
+              "path": "/docs/codebase/cli",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/common",
+              "path": "/docs/codebase/common",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/config",
+              "path": "/docs/codebase/config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/crypto",
+              "path": "/docs/codebase/crypto",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/dcap",
+              "path": "/docs/codebase/dcap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/docker",
+              "path": "/docs/codebase/docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/docs",
+              "path": "/docs/codebase/docs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/examples",
+              "path": "/docs/codebase/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/executor",
+              "path": "/docs/codebase/executor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/file_agent",
+              "path": "/docs/codebase/file_agent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/function",
+              "path": "/docs/codebase/function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/logger",
+              "path": "/docs/codebase/logger",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/rpc",
+              "path": "/docs/codebase/rpc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/runtime",
+              "path": "/docs/codebase/runtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/sdk",
+              "path": "/docs/codebase/sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/services",
+              "path": "/docs/codebase/services",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/tests",
+              "path": "/docs/codebase/tests",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/third_party",
+              "path": "/docs/codebase/third_party",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/tools",
+              "path": "/docs/codebase/tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/types",
+              "path": "/docs/codebase/types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "codebase/worker",
+              "path": "/docs/codebase/worker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "development-tips",
+              "path": "/docs/development-tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "executing-in-occlum",
+              "path": "/docs/executing-in-occlum",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "executing-wasm",
+              "path": "/docs/executing-wasm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions-in-python",
+              "path": "/docs/functions-in-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inference-with-tvm",
+              "path": "/docs/inference-with-tvm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mutual-attestation",
+              "path": "/docs/mutual-attestation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-first-function",
+              "path": "/docs/my-first-function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "papers-talks",
+              "path": "/docs/papers-talks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-guide",
+              "path": "/docs/release-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rust-guideline",
+              "path": "/docs/rust-guideline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "service-internals",
+              "path": "/docs/service-internals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/debugging-a-local-rust-sgx-enclave-in-docker-with-sgx-gdb",
+              "path": "/docs/sgx-sdk-docs/debugging-a-local-rust-sgx-enclave-in-docker-with-sgx-gdb",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/developing-with-vscode",
+              "path": "/docs/sgx-sdk-docs/developing-with-vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/debugging-a-local-rust-sgx-enclave-in-docker-with-sgx-gdb",
+              "path": "/docs/sgx-sdk-docs/documents/debugging-a-local-rust-sgx-enclave-in-docker-with-sgx-gdb",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/developing-with-vscode",
+              "path": "/docs/sgx-sdk-docs/documents/developing-with-vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/environment-setup",
+              "path": "/docs/sgx-sdk-docs/documents/environment-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/everything-about-cve-2020-5499",
+              "path": "/docs/sgx-sdk-docs/documents/everything-about-cve-2020-5499",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/is_x86_feature_detected-in-sgx-sdk",
+              "path": "/docs/sgx-sdk-docs/documents/is_x86_feature_detected-in-sgx-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/mitigation-of-intel-sa-00219-in-rust-sgx",
+              "path": "/docs/sgx-sdk-docs/documents/mitigation-of-intel-sa-00219-in-rust-sgx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/performance-optimization-tips",
+              "path": "/docs/sgx-sdk-docs/documents/performance-optimization-tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/public-cloud-for-rust-sgx-development",
+              "path": "/docs/sgx-sdk-docs/documents/public-cloud-for-rust-sgx-development",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/README",
+              "path": "/docs/sgx-sdk-docs/documents/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+              "path": "/docs/sgx-sdk-docs/documents/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/sgx_in_mesalock_linux",
+              "path": "/docs/sgx-sdk-docs/documents/sgx_in_mesalock_linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/sgxtime",
+              "path": "/docs/sgx-sdk-docs/documents/sgxtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/the-world-of-forked-crates",
+              "path": "/docs/sgx-sdk-docs/documents/the-world-of-forked-crates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/documents/use-vscode---rls---rust-analysis---sgx-gdb-for-graphic-developing-(not-in-docker)",
+              "path": "/docs/sgx-sdk-docs/documents/use-vscode---rls---rust-analysis---sgx-gdb-for-graphic-developing-(not-in-docker)",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/environment-setup",
+              "path": "/docs/sgx-sdk-docs/environment-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/everything-about-cve-2020-5499",
+              "path": "/docs/sgx-sdk-docs/everything-about-cve-2020-5499",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/is_x86_feature_detected-in-sgx-sdk",
+              "path": "/docs/sgx-sdk-docs/is_x86_feature_detected-in-sgx-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx",
+              "path": "/docs/sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/performance-optimization-tips",
+              "path": "/docs/sgx-sdk-docs/performance-optimization-tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/public-cloud-for-rust-sgx-development",
+              "path": "/docs/sgx-sdk-docs/public-cloud-for-rust-sgx-development",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/README",
+              "path": "/docs/sgx-sdk-docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+              "path": "/docs/sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/sgx_in_mesalock_linux",
+              "path": "/docs/sgx-sdk-docs/sgx_in_mesalock_linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/sgxtime",
+              "path": "/docs/sgx-sdk-docs/sgxtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/the-world-of-forked-crates",
+              "path": "/docs/sgx-sdk-docs/the-world-of-forked-crates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sgx-sdk-docs/use-vscode---rls---rust-analysis---sgx-gdb-for-graphic-developing-(not-in-docker)",
+              "path": "/docs/sgx-sdk-docs/use-vscode---rls---rust-analysis---sgx-gdb-for-graphic-developing-(not-in-docker)",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "threat-model",
+              "path": "/docs/threat-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/building-rust-ca-as-android-elf",
+              "path": "/docs/trustzone-sdk-docs/building-rust-ca-as-android-elf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/debugging-optee-ta",
+              "path": "/docs/trustzone-sdk-docs/debugging-optee-ta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/building-rust-ca-as-android-elf",
+              "path": "/docs/trustzone-sdk-docs/docs/building-rust-ca-as-android-elf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/debugging-optee-ta",
+              "path": "/docs/trustzone-sdk-docs/docs/debugging-optee-ta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/emulate-and-dev-in-docker",
+              "path": "/docs/trustzone-sdk-docs/docs/emulate-and-dev-in-docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8",
+              "path": "/docs/trustzone-sdk-docs/docs/expanding-ta-secure-memory-on-qemuv8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/migrating-to-new-building-env",
+              "path": "/docs/trustzone-sdk-docs/docs/migrating-to-new-building-env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/overview-of-optee-rust-examples",
+              "path": "/docs/trustzone-sdk-docs/docs/overview-of-optee-rust-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/README",
+              "path": "/docs/trustzone-sdk-docs/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/docs/writing-rust-tas-using-optee-utee-build",
+              "path": "/docs/trustzone-sdk-docs/docs/writing-rust-tas-using-optee-utee-build",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/emulate-and-dev-in-docker",
+              "path": "/docs/trustzone-sdk-docs/emulate-and-dev-in-docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/expanding-ta-secure-memory-on-qemuv8",
+              "path": "/docs/trustzone-sdk-docs/expanding-ta-secure-memory-on-qemuv8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/migrating-to-new-building-env",
+              "path": "/docs/trustzone-sdk-docs/migrating-to-new-building-env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/overview-of-optee-rust-examples",
+              "path": "/docs/trustzone-sdk-docs/overview-of-optee-rust-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/README",
+              "path": "/docs/trustzone-sdk-docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trustzone-sdk-docs/writing-rust-tas-using-optee-utee-build",
+              "path": "/docs/trustzone-sdk-docs/writing-rust-tas-using-optee-utee-build",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "README"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

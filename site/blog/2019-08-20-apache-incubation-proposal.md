@@ -4,6 +4,8 @@ date: 2019-08-20
 author: The Teaclave PPMC
 ---
 
+<!-- truncate -->s
+
 ```
 MesaTEE Apache Incubation Proposal
 

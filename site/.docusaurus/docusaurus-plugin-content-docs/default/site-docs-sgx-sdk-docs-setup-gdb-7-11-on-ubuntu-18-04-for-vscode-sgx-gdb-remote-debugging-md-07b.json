@@ -1,0 +1,26 @@
+{
+  "id": "sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+  "title": "setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+  "description": "This instruction is provided by @akoskinas. Thanks!",
+  "source": "@site/docs/sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging.md",
+  "sourceDirName": "sgx-sdk-docs",
+  "slug": "/sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+  "permalink": "/docs/sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/sgx-sdk-docs/setup-gdb-ubuntu18"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "List of public available cloud service provide for Rust SGX development",
+    "permalink": "/docs/sgx-sdk-docs/public-cloud-for-rust-sgx-development"
+  },
+  "next": {
+    "title": "Run Rust SGX Applications in Mesalock Linux",
+    "permalink": "/docs/sgx-sdk-docs/sgx_in_mesalock_linux"
+  }
+}

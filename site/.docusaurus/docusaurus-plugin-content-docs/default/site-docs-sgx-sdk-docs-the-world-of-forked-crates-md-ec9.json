@@ -1,0 +1,26 @@
+{
+  "id": "sgx-sdk-docs/the-world-of-forked-crates",
+  "title": "The World of Forked crates",
+  "description": "We created a \"super repo\" at dingelish/sgx-world, which includes all the forked repos as git submodules.",
+  "source": "@site/docs/sgx-sdk-docs/the-world-of-forked-crates.md",
+  "sourceDirName": "sgx-sdk-docs",
+  "slug": "/sgx-sdk-docs/the-world-of-forked-crates",
+  "permalink": "/docs/sgx-sdk-docs/the-world-of-forked-crates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/sgx-sdk-docs/the-world-of-forked-crates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/sgx-sdk-docs/the-world-of-forked-crates"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Acquiring Trusted timestamp from Intel ME in SGX enclave",
+    "permalink": "/docs/sgx-sdk-docs/sgxtime"
+  },
+  "next": {
+    "title": "use-vscode---rls---rust-analysis---sgx-gdb-for-graphic-developing-(not-in-docker)",
+    "permalink": "/docs/sgx-sdk-docs/use-vscode---rls---rust-analysis---sgx-gdb-for-graphic-developing-(not-in-docker)"
+  }
+}

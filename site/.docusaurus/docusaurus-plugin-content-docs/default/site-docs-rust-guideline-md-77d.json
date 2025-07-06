@@ -1,0 +1,26 @@
+{
+  "id": "rust-guideline",
+  "title": "Rust Development Guideline",
+  "description": "This doc defines some guidelines for developing Teaclave in Rust.",
+  "source": "@site/docs/rust-guideline.md",
+  "sourceDirName": ".",
+  "slug": "/rust-guideline",
+  "permalink": "/docs/rust-guideline",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/rust-guideline.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/rust-guildeline"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Release Guide",
+    "permalink": "/docs/release-guide"
+  },
+  "next": {
+    "title": "Teaclave Service Internals",
+    "permalink": "/docs/service-internals"
+  }
+}

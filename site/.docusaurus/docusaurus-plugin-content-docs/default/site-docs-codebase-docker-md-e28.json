@@ -1,0 +1,26 @@
+{
+  "id": "codebase/docker",
+  "title": "Teaclave Docker",
+  "description": "This directory contains the docker infrastructure for build and runtime",
+  "source": "@site/docs/codebase/docker.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/docker",
+  "permalink": "/docs/codebase/docker",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/docker"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Center Attestation Service",
+    "permalink": "/docs/codebase/dcap"
+  },
+  "next": {
+    "title": "Teaclave Documentation",
+    "permalink": "/docs/codebase/docs"
+  }
+}

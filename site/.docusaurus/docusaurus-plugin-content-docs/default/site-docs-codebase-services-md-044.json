@@ -1,0 +1,26 @@
+{
+  "id": "codebase/services",
+  "title": "Teaclave Services",
+  "description": "This directory contains protocol definitions and implementations of services in",
+  "source": "@site/docs/codebase/services.md",
+  "sourceDirName": "codebase",
+  "slug": "/codebase/services",
+  "permalink": "/docs/codebase/services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/codebase/services.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/docs/codebase/services"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client SDK",
+    "permalink": "/docs/codebase/sdk"
+  },
+  "next": {
+    "title": "Test Harness and Test Cases",
+    "permalink": "/docs/codebase/tests"
+  }
+}

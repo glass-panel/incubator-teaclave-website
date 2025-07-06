@@ -1,0 +1,26 @@
+{
+  "id": "sgx-sdk-docs/sgx_in_mesalock_linux",
+  "title": "Run Rust SGX Applications in Mesalock Linux",
+  "description": "MesaLock Linux is a general purpose Linux distribution which aims to provide a safe and secure user space environment. To eliminate high-severe vulnerabilities caused by memory corruption, the whole user space applications are rewritten in memory-safe programming languages like Rust and Go. This extremely reduces attack surfaces of an operating system exposed in the wild, leaving the remaining attack surfaces auditable and restricted.  Therefore, MesaLock Linux can substantially improve the security of the Linux ecosystem. Additionally, thanks to the Linux kernel, MesaLock Linux supports a broad hardware environment, making it deployable in many places. Two main usage scenarios of MesaLock Linux are for containers and security-sensitive embedded devices. With the growth of the ecosystem, MesaLock Linux would also be adopted in the server environment in the future.",
+  "source": "@site/docs/sgx-sdk-docs/sgx_in_mesalock_linux.md",
+  "sourceDirName": "sgx-sdk-docs",
+  "slug": "/sgx-sdk-docs/sgx_in_mesalock_linux",
+  "permalink": "/docs/sgx-sdk-docs/sgx_in_mesalock_linux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/sgx-sdk-docs/sgx_in_mesalock_linux.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/sgx-sdk-docs/sgx_in_mesalock_linux"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging",
+    "permalink": "/docs/sgx-sdk-docs/setup-gdb-7.11-on-ubuntu-18.04-for-vscode---sgx-gdb-remote-debugging"
+  },
+  "next": {
+    "title": "Acquiring Trusted timestamp from Intel ME in SGX enclave",
+    "permalink": "/docs/sgx-sdk-docs/sgxtime"
+  }
+}

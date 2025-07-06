@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2020/10/22/announcing-teaclave-0.1.0",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2020-10-22-announcing-teaclave-0.1.0.md",
+  "source": "@site/blog/2020-10-22-announcing-teaclave-0.1.0.md",
+  "title": "Announcing Apache Teaclave (incubating) 0.1.0",
+  "description": "English | 中文",
+  "date": "2020-10-22T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mingshen Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Announcing Apache Teaclave (incubating) 0.1.0",
+    "date": "2020-10-22T00:00:00.000Z",
+    "author": "Mingshen Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "让安全计算更简单 - Apache Teaclave (incubating) 0.1.0 正式发布",
+    "permalink": "/blog/2020/10/29/announcing-teaclave-0.1.0-cn"
+  },
+  "nextItem": {
+    "title": "Podling Teaclave Report - October 2020",
+    "permalink": "/blog/2020/10/12/podling-teaclave-report-october-2020"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2022/04/18/announcing-teaclave-trustzone-sdk-0.2.0",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2022-04-18-announcing-teaclave-trustzone-sdk-0.2.0.md",
+  "source": "@site/blog/2022-04-18-announcing-teaclave-trustzone-sdk-0.2.0.md",
+  "title": "Announcing Apache Teaclave TrustZone SDK (incubating) 0.2.0",
+  "description": "On behalf of the Teaclave community, I am happy to announce the release of",
+  "date": "2022-04-18T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mingshen Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Announcing Apache Teaclave TrustZone SDK (incubating) 0.2.0",
+    "date": "2022-04-18T00:00:00.000Z",
+    "author": "Mingshen Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Announcing Apache Teaclave (incubating) 0.4.0",
+    "permalink": "/blog/2022/04/18/announcing-teaclave-0.4.0"
+  },
+  "nextItem": {
+    "title": "Teaclave Meetup #11",
+    "permalink": "/blog/2022/03/31/teaclave-meetup-11"
+  }
+}

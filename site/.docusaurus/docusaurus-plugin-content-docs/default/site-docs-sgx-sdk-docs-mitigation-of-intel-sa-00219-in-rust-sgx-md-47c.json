@@ -1,0 +1,26 @@
+{
+  "id": "sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx",
+  "title": "Background",
+  "description": "Intel issued Intel SA-00219 on Nov 12, 2019, with CVE number CVE-2019-0117. Intel also published a guidance to instruct the developers/researchers. Then Intel released Intel SGX SDK v2.7.1, including new memory allocation primitives and corresponding patches in PSW enclaves.",
+  "source": "@site/docs/sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx.md",
+  "sourceDirName": "sgx-sdk-docs",
+  "slug": "/sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx",
+  "permalink": "/docs/sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/sgx-sdk-docs/mitigation-of-intel-sa-00219-in-rust-sgx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "permalink": "/sgx-sdk-docs/mitigation-of-intel-sa-00219"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "is_x86_feature_detected in Teaclave SGX SDK",
+    "permalink": "/docs/sgx-sdk-docs/is_x86_feature_detected-in-sgx-sdk"
+  },
+  "next": {
+    "title": "Performance Optimization Tips",
+    "permalink": "/docs/sgx-sdk-docs/performance-optimization-tips"
+  }
+}

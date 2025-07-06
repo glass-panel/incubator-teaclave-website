@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/2022/12/14/teaclave-meetup-14",
+  "editUrl": "https://github.com/apache/incubator-teaclave-website/tree/master/site/blog/blog/2022-12-14-teaclave-meetup-14.md",
+  "source": "@site/blog/2022-12-14-teaclave-meetup-14.md",
+  "title": "Teaclave Meetup #14",
+  "description": "Agenda",
+  "date": "2022-12-14T00:00:00.000Z",
+  "tags": [],
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "He Sun",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Teaclave Meetup #14",
+    "date": "2022-12-14T00:00:00.000Z",
+    "author": "He Sun"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Teaclave Meetup #15",
+    "permalink": "/blog/2022/12/21/teaclave-meetup-15"
+  },
+  "nextItem": {
+    "title": "Accepting JavaEnclave to Apache Teaclave (incubating) Proposal",
+    "permalink": "/blog/2022/10/08/accepting-java-enclave-proposal"
+  }
+}
