@@ -104,9 +104,10 @@ const config = {
           alt: 'Apache Teaclave',
           src: 'img/logo.svg',
           style: {
-            height: '2rem',
+            height: '5.6rem',
             paddingLeft: '1.6rem',
-            transform: 'scale(2.8)',
+            position: 'relative',
+            top: '-1.8rem',
           }
         },
         items: [
