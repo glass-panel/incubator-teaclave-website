@@ -57,7 +57,7 @@ site-build: update-repo
 	npm run build
 
 dev:
-	npm run dev
+	npm run start
 
 preview:
 	cd build && python3 -m http.server
