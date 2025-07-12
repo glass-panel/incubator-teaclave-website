@@ -35,7 +35,7 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  
+
   markdown: {
     format: 'detect',
     // Replace autolinks to avoid mdx rendering issues.
@@ -46,7 +46,7 @@ const config = {
       });
       return file.fileContent;
     },
-    
+
   },
 
   // Even if you don't use internationalization, you can use this field to set
@@ -68,6 +68,20 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs',
+          routeBasePath: '/',
+          include: [
+            '*.md',
+            'api-docs/*.md',
+            'blog/*.md',
+            'teaclave/**/*.md',
+            'teaclave-sgx-sdk/documents/*.md',
+            'teaclave-trustzone-sdk/docs'
+          ],
+          exclude: [
+            'teaclave/sdk/rust/target/*',
+            'teaclave-trustzone-sdk/optee-utee/target/*',
+            'teaclave-trustzone-sdk/optee-teec/target/*',
+          ]
         },
         blog: {
           showReadingTime: false,
