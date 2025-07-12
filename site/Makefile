@@ -7,21 +7,21 @@ site: build
 	ghp-import --no-history --force build -b asf-site
 
 init-repo:
-	git clone https://github.com/apache/incubator-teaclave.git teaclave --depth 1
+	git clone https://github.com/apache/incubator-teaclave.git docs/teaclave --depth 1
 	# v2.0.0-preview branch does not have documents folder, we use master branch instead
-	git clone -b master https://github.com/apache/incubator-teaclave-sgx-sdk.git teaclave-sgx-sdk --depth 1
-	git clone https://github.com/apache/incubator-teaclave-trustzone-sdk.git teaclave-trustzone-sdk --depth 1
+	git clone -b master https://github.com/apache/incubator-teaclave-sgx-sdk.git docs/teaclave-sgx-sdk --depth 1
+	git clone https://github.com/apache/incubator-teaclave-trustzone-sdk.git docs/teaclave-trustzone-sdk --depth 1
 
 check-repo:
-	@if [ ! -d "teaclave" ] || [ ! -d "teaclave-sgx-sdk" ] || [ ! -d "teaclave-trustzone-sdk" ]; then \
+	@if [ ! -d "docs/teaclave" ] || [ ! -d "docs/teaclave-sgx-sdk" ] || [ ! -d "docs/teaclave-trustzone-sdk" ]; then \
 		echo "Repositories not found. Running init-repo..."; \
 		$(MAKE) init-repo; \
 	fi
 
 update-repo: check-repo
-	cd teaclave && git pull --depth 1
-	cd teaclave-sgx-sdk && git pull --depth 1
-	cd teaclave-trustzone-sdk && git pull --depth 1
+	cd docs/teaclave && git pull --depth 1
+	cd docs/teaclave-sgx-sdk && git pull --depth 1
+	cd docs/teaclave-trustzone-sdk && git pull --depth 1
 
 sgx-sdk-api-docs: site-build
 	mkdir -p build/api-docs/sgx-sdk-docs
@@ -46,14 +46,6 @@ teaclave-crates-docs: site-build
 teaclave-docs: teaclave-crates-docs client-sdk-python-docs client-sdk-rust-docs
 
 site-build: update-repo
-	cp -r teaclave/docs/* docs/ 
-	cp -r teaclave-sgx-sdk/documents docs/sgx-sdk-docs
-	cp -r teaclave-trustzone-sdk/docs docs/trustzone-sdk-docs
-	
-	# manually copy those components' docs
-	mkdir -p docs/codebase
-	node relocate-links.js
-
 	npm run build
 
 dev:
@@ -66,9 +58,9 @@ build: teaclave-docs sgx-sdk-api-docs trustzone-sdk-api-docs
 	cp ../.asf.yaml build
 
 clean-repo:
-	rm -rf teaclave
-	rm -rf teaclave-sgx-sdk
-	rm -rf teaclave-trustzone-sdk
+	rm -rf docs/teaclave
+	rm -rf docs/teaclave-sgx-sdk
+	rm -rf docs/teaclave-trustzone-sdk
 
 clean: clean-repo
 	rm -rf build
