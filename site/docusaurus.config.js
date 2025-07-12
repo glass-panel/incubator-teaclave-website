@@ -130,21 +130,21 @@ const config = {
           }
         },
         items: [
-          { to: '/', label: 'ABOUT', position: 'right' },
-          { to: '/powered-by', label: 'POWERED BY', position: 'right' },
+          { to: '/', label: 'About', position: 'right' },
+          { to: '/powered-by', label: 'Powered By', position: 'right' },
           {
             to: '/community',
-            label: 'COMMUNITY',
+            label: 'Community',
             items: [
-              { label: 'CONTRIBUTING', to: '/contributing' },
-              { label: 'CONTRIBUTORS', to: '/contributors' },
+              { label: 'Contributing', to: '/contributing' },
+              { label: 'Contributors', to: '/contributors' },
             ],
             position: 'right',
           },
-          { to: '/download', label: 'DOWNLOAD', position: 'right' },
+          { to: '/download', label: 'Download', position: 'right' },
           {
             to: '/docs',
-            label: 'DOCS',
+            label: 'Docs',
             items: [
               { label: 'Teaclave', to: '/docs/' },
               { label: 'Teaclave SGX SDK', to: '/sgx-sdk-docs/' },
@@ -160,6 +160,17 @@ const config = {
             position: 'right',
           },
           { to: '/blog', label: 'Blog', position: 'right' },
+          {
+            label: 'Repos',
+            items: [
+              { label: 'Teaclave', href: 'https://github.com/apache/incubator-teaclave' },
+              { label: 'Teaclave SGX SDK', href: 'https://github.com/apache/incubator-teaclave-sgx-sdk' },
+              { label: 'Teaclave TrustZone SDK', href: 'https://github.com/apache/incubator-teaclave-trustzone-sdk' },
+              { label: 'Teaclave Java TEE SDK', href: 'https://github.com/apache/incubator-teaclave-java-tee-sdk' },
+              { label: 'Teaclave Website', href: 'https://github.com/apache/incubator-teaclave-website' }
+            ],
+            position: 'right',
+          },
           {
             label: 'ASF',
             items: [
