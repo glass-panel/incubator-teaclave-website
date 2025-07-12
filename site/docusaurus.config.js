@@ -38,6 +38,11 @@ const config = {
 
   markdown: {
     format: 'detect',
+    parseFrontMatter: async (params) => {
+      const result = await params.defaultParseFrontMatter(params);
+      result.frontMatter.slug = result.frontMatter.permalink;
+      return result;
+    },
     // Replace autolinks to avoid mdx rendering issues.
     preprocessor: (file) => {
       const autolinks = file.fileContent.match(/<((https?:)|(mailto:))[\S]+>/gi);
@@ -142,8 +147,8 @@ const config = {
             label: 'DOCS',
             items: [
               { label: 'Teaclave', to: '/docs/' },
-              { label: 'Teaclave SGX SDK', to: '/docs/sgx-sdk-docs/' },
-              { label: 'Teaclave TrustZone SDK', to: '/docs/trustzone-sdk-docs/' },
+              { label: 'Teaclave SGX SDK', to: '/sgx-sdk-docs/' },
+              { label: 'Teaclave TrustZone SDK', to: '/trustzone-sdk-docs/' },
               { label: 'Teaclave Client SDK (Rust)', href: 'https://teaclave.apache.org/api-docs/client-sdk-rust/', target: '_self', rel: '' },
               { label: 'Teaclave Client SDK (Python)', href: 'https://teaclave.apache.org/api-docs/client-sdk-python/', target: '_self', rel: '' },
               { label: 'Teaclave SGX SDK', href: 'https://teaclave.apache.org/api-docs/sgx-sdk/', target: '_self', rel: '' },
