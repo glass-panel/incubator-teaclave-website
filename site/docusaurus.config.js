@@ -13,9 +13,6 @@ const config = {
   title: 'Apache Teaclave (incubating)',
   tagline: 'Apache Teaclave (incubating) is an open source universal secure computing platform, making computation on privacy-sensitive data safe and simple.',
   favicon: undefined,
-  /*markdown: {
-    format: 'md'
-  },*/
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
