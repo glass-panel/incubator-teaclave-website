@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Apache Teaclave (incubating)',
   tagline: 'Apache Teaclave (incubating) is an open source universal secure computing platform, making computation on privacy-sensitive data safe and simple.',
-  favicon: 'img/logo.svg',
+  favicon: undefined,
   /*markdown: {
     format: 'md'
   },*/
