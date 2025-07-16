@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teaclave.apache.org/blog"/>
     <subtitle>Apache Teaclave (incubating) Blog</subtitle>
-    <icon>https://teaclave.apache.org/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[Podling Teaclave Report - June 2024]]></title>
         <id>https://teaclave.apache.org/blog/2024/05/31/podling-teaclave-report-june-2024</id>
