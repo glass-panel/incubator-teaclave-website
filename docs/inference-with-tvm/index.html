@@ -5,8 +5,8 @@
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Inference Task with TVM in Teaclave | Apache Teaclave (incubating)</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://teaclave.apache.org/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://teaclave.apache.org/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://teaclave.apache.org/docs/inference-with-tvm"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Inference Task with TVM in Teaclave | Apache Teaclave (incubating)"><meta data-rh="true" name="description" content="Inference and model training are two important topics in machine learning."><meta data-rh="true" property="og:description" content="Inference and model training are two important topics in machine learning."><link data-rh="true" rel="canonical" href="https://teaclave.apache.org/docs/inference-with-tvm"><link data-rh="true" rel="alternate" href="https://teaclave.apache.org/docs/inference-with-tvm" hreflang="en"><link data-rh="true" rel="alternate" href="https://teaclave.apache.org/docs/inference-with-tvm" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inference Task with TVM in Teaclave","item":"https://teaclave.apache.org/docs/inference-with-tvm"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Apache Teaclave (incubating) RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Apache Teaclave (incubating) Atom Feed"><link rel="stylesheet" href="/assets/css/styles.e2b519a3.css">
-<script src="/assets/js/runtime~main.d21cec77.js" defer="defer"></script>
-<script src="/assets/js/main.464fc9a6.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.486df329.js" defer="defer"></script>
+<script src="/assets/js/main.d854c0fd.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -37,13 +37,14 @@ document</a>. Besides the
 dependencies listed on their website, we also need to install (e.g. on Ubuntu
 18.04) these packages to build the example.</p>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install protobuf-compiler libprotoc-dev llvm-10 clang-10</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip3 install onnx==1.9.0 numpy decorator attrs spicy</span><br></span></code></pre></div></div>
-<p>::: tip NOTE
+<blockquote>
+<p>**NOTE ** <br>
 At the time of writing this document, latest <code>onnx</code> cannot work
 because it depends on a higher version <code>protobuf</code>, which is not provided by
 Ubuntu 18.04. We tested TVM with commit hash
 <code>df06c5848f59108a8e6e7dffb997b4b659b573a7</code>. Later versions may work, but commits
-older than this one hardly work.
-:::</p>
+older than this one hardly work.</p>
+</blockquote>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="compiling-wasm-library">Compiling WASM Library<a href="#compiling-wasm-library" class="hash-link" aria-label="Direct link to Compiling WASM Library" title="Direct link to Compiling WASM Library">​</a></h2>
 <p>TVM offers a set of Python APIs for downloading, building, and testing the
 model. Specifically, to compile a graph into binary, we need to:</p>
@@ -76,18 +77,20 @@ calling to the graph library. Detailed mechanisms are explained in <a href="http
 example</a>. our
 example can be found
 <a href="https://github.com/apache/incubator-teaclave/tree/master/examples/python/wasm_tvm_mnist_payload" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>::: tip NOTE
+<blockquote>
+<p>**NOTE ** <br>
 To compile a Teaclave-compatible WASM binary, please make sure your
-Rust version &gt; 1.53. We tested on 1.54 stable.
-:::</p>
+Rust version &gt; 1.53. We tested on 1.54 stable.</p>
+</blockquote>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="execute-the-function">Execute the function<a href="#execute-the-function" class="hash-link" aria-label="Direct link to Execute the function" title="Direct link to Execute the function">​</a></h2>
 <p>Just like any other Teaclave function, users need to prepare a simple Python
 script to pass the function and data to Teaclave, and then get the result back.
 The script of this example is
 <a href="https://github.com/apache/incubator-teaclave/blob/master/examples/python/wasm_tvm_mnist.py" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>::: tip NOTE
+<blockquote>
+<p><strong>NOTE</strong> <br>
 To compile a Teaclave-compatible WASM binary, please make sure your
-Rust version &gt; 1.53. We tested on 1.54 stable.
-:::</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/apache/incubator-teaclave-website/tree/master/sgx-sdk-api-docs/docs/teaclave/docs/inference-with-tvm.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/executing-wasm"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Executing WebAssembly in Teaclave</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/access-control"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Access Control in Teaclave</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#preparing-tvm-and-dependencies" class="table-of-contents__link toc-highlight">Preparing TVM and Dependencies</a></li><li><a href="#compiling-wasm-library" class="table-of-contents__link toc-highlight">Compiling WASM Library</a></li><li><a href="#bridging-with-teaclave" class="table-of-contents__link toc-highlight">Bridging with Teaclave</a></li><li><a href="#execute-the-function" class="table-of-contents__link toc-highlight">Execute the function</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright"><div style="font-size:.7rem; text-align:left;">Apache Teaclave (incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. Copyright © 2020 The Apache Software Foundation. Licensed under the Apache License, Version 2.0. Apache Teaclave, Apache, the Apache feather, and the Apache Teaclave project logo are either trademarks or registered trademarks of the Apache Software Foundation.</div></div></div></div></footer></div>
+Rust version &gt; 1.53. We tested on 1.54 stable.</p>
+</blockquote></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/executing-wasm"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Executing WebAssembly in Teaclave</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/access-control"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Access Control in Teaclave</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#preparing-tvm-and-dependencies" class="table-of-contents__link toc-highlight">Preparing TVM and Dependencies</a></li><li><a href="#compiling-wasm-library" class="table-of-contents__link toc-highlight">Compiling WASM Library</a></li><li><a href="#bridging-with-teaclave" class="table-of-contents__link toc-highlight">Bridging with Teaclave</a></li><li><a href="#execute-the-function" class="table-of-contents__link toc-highlight">Execute the function</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright"><div style="font-size:.7rem; text-align:left;">Apache Teaclave (incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. Copyright © 2020 The Apache Software Foundation. Licensed under the Apache License, Version 2.0. Apache Teaclave, Apache, the Apache feather, and the Apache Teaclave project logo are either trademarks or registered trademarks of the Apache Software Foundation.</div></div></div></div></footer></div>
 </body>
 </html>
