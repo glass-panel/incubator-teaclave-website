@@ -4,46 +4,44 @@ sidebar: false
 ---
 # Download
 
-The followings are Apache Incubator releases for Teaclave projects - Teaclave,
+The followings are Apache releases for Teaclave projects - Teaclave,
 Teaclave SGX SDK, Teaclave TrustZone SDK, and Teaclave Java TEE SDK. These
 source archives are generated from tagged releases. You can verify your download
 by following these
 [procedures](https://www.apache.org/info/verification.html) and using these
-[KEYS](https://downloads.apache.org/incubator/teaclave/KEYS).
+[KEYS](https://downloads.apache.org/teaclave/KEYS).
 
-## Teaclave Ecosystem Releases
+## Apache Teaclave™ Ecosystem Releases
 
-The Teaclave ecosystem consists of several independently released SDKs and components, 
+The Apache Teaclave™ ecosystem consists of several independently released SDKs and components, 
 with each sub-project targeting a specific trusted execution environment (TEE).
 Each SDK evolves independently to best support its respective platform and use cases.
 
 ### Teaclave TrustZone SDK
 
-| Version | Date | Source Code               | PGP/SHA | Release Notes |
-|:-------:|:------------:|:-------------------------:|:----:|:-------:|
-| 0.5.0   | 2025-07-18   | [apache-teaclave-trustzone-sdk-0.5.0-incubating.tar.gz](https://downloads.apache.org/incubator/teaclave/trustzone-sdk-0.5.0/apache-teaclave-trustzone-sdk-0.5.0-incubating.tar.gz) | [asc](https://downloads.apache.org/incubator/teaclave/trustzone-sdk-0.5.0/apache-teaclave-trustzone-sdk-0.5.0-incubating.tar.gz.asc), [sha512](https://downloads.apache.org/incubator/teaclave/trustzone-sdk-0.5.0/apache-teaclave-trustzone-sdk-0.5.0-incubating.tar.gz.sha512) | [notes](https://github.com/apache/incubator-teaclave-trustzone-sdk/releases/tag/v0.5.0) |
+| Latest Version | Source Code               | PGP/SHA | Release Notes |
+|:-------:|:-------------------------:|:----:|:-------:|
+| 0.7.0   | [apache-teaclave-trustzone-sdk-0.7.0.tar.gz](https://www.apache.org/dyn/closer.lua/teaclave/trustzone-sdk-0.7.0/apache-teaclave-trustzone-sdk-0.7.0.tar.gz?action=download) | [asc](https://downloads.apache.org/teaclave/trustzone-sdk-0.7.0/apache-teaclave-trustzone-sdk-0.7.0.tar.gz.asc), [sha512](https://downloads.apache.org/teaclave/trustzone-sdk-0.7.0/apache-teaclave-trustzone-sdk-0.7.0.tar.gz.sha512) | [notes](https://github.com/apache/teaclave-trustzone-sdk/releases/tag/v0.7.0) |
 
 ### Teaclave SGX SDK
 
-| Version | Date | Source Code               | PGP/SHA | Release Notes |
-|:-------:|:------------:|:-------------------------:|:----:|:-------:|
-| - | - | - | - | - |
+| Latest Version | Source Code               | PGP/SHA | Release Notes |
+|:-------:|:-------------------------:|:----:|:-------:|
+| - | - | - | - |
 
+*Note: Teaclave SGX SDK releases are currently in development. Please check the [GitHub repository](https://github.com/apache/teaclave-sgx-sdk) for the latest updates.*
 
 ### Teaclave Java TEE SDK
 
-| Version | Date | Source Code               | PGP/SHA | Release Notes |
-|:-------:|:------------:|:-------------------------:|:----:|:-------:|
-| 0.1.0 | 2023-01-18 | [apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz](https://downloads.apache.org/incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz) | [asc](https://downloads.apache.org/incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz.asc), [sha512](https://downloads.apache.org/incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz.sha512) | [notes](https://github.com/apache/incubator-teaclave-java-tee-sdk/releases/tag/v0.1.0) |
-
+| Latest Version | Source Code               | PGP/SHA | Release Notes |
+|:-------:|:-------------------------:|:----:|:-------:|
+| 0.1.0 | [apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz](https://www.apache.org/dyn/closer.lua/incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz?action=download) | [asc](https://downloads.apache.org/incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz.asc), [sha512](https://downloads.apache.org/incubator/teaclave/java-tee-sdk-v0.1.0/apache-teaclave-java-tee-sdk-0.1.0-incubating.tar.gz.sha512) | [notes](https://github.com/apache/teaclave-java-tee-sdk/releases/tag/v0.1.0) |
 
 ## Teaclave FaaS (legacy)
 
-| Version | Date | Source Code               | PGP/SHA | Link |
-|:-------:|:------------:|:-------------------------:|:-------:|:-------------:|
-| 0.5.1   | 2023-05-31   | [apache-teaclave-0.5.1-incubating.tar.gz](https://downloads.apache.org/incubator/teaclave/0.5.1/apache-teaclave-0.5.1-incubating.tar.gz)| [asc](https://downloads.apache.org/incubator/teaclave/0.5.1/apache-teaclave-0.5.1-incubating.tar.gz.asc), [sha512](https://downloads.apache.org/incubator/teaclave/0.5.1/apache-teaclave-0.5.1-incubating.tar.gz.sha512) | [notes](https://github.com/apache/incubator-teaclave/releases/tag/v0.5.1) |
-
-Note that older releases can be found in the [archive](https://archive.apache.org/dist/incubator/teaclave/) site.
+| Latest Version | Source Code               | PGP/SHA | Release Notes |
+|:-------:|:-------------------------:|:-------:|:-------------:|
+| 0.5.1   | [apache-teaclave-0.5.1-incubating.tar.gz](https://www.apache.org/dyn/closer.lua/incubator/teaclave/0.5.1/apache-teaclave-0.5.1-incubating.tar.gz?action=download)| [asc](https://downloads.apache.org/incubator/teaclave/0.5.1/apache-teaclave-0.5.1-incubating.tar.gz.asc), [sha512](https://downloads.apache.org/incubator/teaclave/0.5.1/apache-teaclave-0.5.1-incubating.tar.gz.sha512) | [notes](https://github.com/apache/teaclave/releases/tag/v0.5.1) |
 
 ## Verify the Integrity of the Files
 
@@ -55,7 +53,7 @@ for more information on why you should verify our releases.
 :::
 
 The PGP signature can be verified using PGP or GPG. First download the
-[KEYS](https://downloads.apache.org/incubator/teaclave/KEYS) as
+[KEYS](https://downloads.apache.org/teaclave/KEYS) as
 well as the asc signature file for the relevant distribution. Make sure you get
 these files from the main distribution site, rather than from a mirror. Then
 verify the signatures using

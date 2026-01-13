@@ -4,7 +4,8 @@ permalink: /contributing
 
 # Contributing
 
-Teaclave is open source and follows [The Apache Way](https://www.apache.org/theapacheway/).
+Apache Teaclave™  is open source and follows
+[The Apache Way](https://www.apache.org/theapacheway/).
 We aim to create a project that is maintained and owned by the 
 community. All kinds of contributions are welcome.
 
@@ -15,11 +16,12 @@ documentation, bug reports, discussions, and outreach.
 
 For source code contributions, please refer to the respective GitHub repositories:
 
-- [Teaclave](https://github.com/apache/incubator-teaclave)
-- [Teaclave SGX SDK](https://github.com/apache/incubator-teaclave-sgx-sdk)
-- [Teaclave TrustZone SDK](https://github.com/apache/incubator-teaclave-trustzone-sdk)
-- [Teaclave Java TEE SDK](https://github.com/apache/incubator-teaclave-java-tee-sdk)
-- [Teaclave Website](https://github.com/apache/incubator-teaclave-website)
+- [Teaclave](https://github.com/apache/teaclave)
+- [Teaclave SGX SDK](https://github.com/apache/teaclave-sgx-sdk)
+- [Teaclave TrustZone SDK](https://github.com/apache/teaclave-trustzone-sdk)
+- [Teaclave Java TEE SDK](https://github.com/apache/teaclave-java-tee-sdk)
+- [Teaclave Dependency Crates](https://github.com/apache/teaclave-crates)
+- [Teaclave Website](https://github.com/apache/teaclave-website)
 
 Please open a pull request to the relevant repository with a clear explanation of 
 your changes. Follow any contribution guidelines and coding conventions described 
@@ -30,7 +32,8 @@ in the repo.
 For bug reports, please use the GitHub "Issues" tab in the relevant repository. Timely responses and triage will be performed by the maintainers.
 
 We recommend using the following format when reporting:
-```
+
+```markdown
 ## Environment:
 - OS and version
 - Hardware and platform
@@ -84,4 +87,4 @@ coordinate effectively.
 Teaclave follows the [Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct).
 We expect all contributors to adhere to it.
 
-Thank you for your interest in contributing to Teaclave! 
+Thank you for your interest in contributing to Apache Teaclave™! 

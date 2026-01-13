@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apache Teaclave (incubating)',
+  title: 'Apache Teaclave™ ',
   tagline: 'Open-source SDKs to build memory-safe Trusted Applications on Intel SGX, Arm TrustZone, and beyond.',
   favicon: undefined,
 
@@ -29,7 +29,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'apache', // Usually your GitHub org/user name.
-  projectName: 'incubator-teaclave', // Usually your repo name.
+  projectName: 'teaclave', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -106,7 +106,6 @@ const config = {
           routeBasePath: '/',
           include: [
             '*.md',
-            'api-docs/*.md',
             'blog/*.md',
             'community/*.md',
             'teaclave-docs/**/*.md',
@@ -152,13 +151,14 @@ const config = {
       navbar: {
         title: undefined,
         logo: {
-          alt: 'Apache Teaclave',
+          alt: 'Apache Teaclave™',
           src: 'img/logo.svg',
           style: {
-            height: '5.6rem',
+            height: '2.5rem',
+            maxWidth: '300px',
             paddingLeft: '1.6rem',
             position: 'relative',
-            top: '-1.8rem',
+            top: '0.1rem',
           }
         },
         items: [
@@ -196,11 +196,11 @@ const config = {
           {
             label: 'Repos',
             items: [
-              { label: 'Teaclave', href: 'https://github.com/apache/incubator-teaclave' },
-              { label: 'Teaclave SGX SDK', href: 'https://github.com/apache/incubator-teaclave-sgx-sdk' },
-              { label: 'Teaclave TrustZone SDK', href: 'https://github.com/apache/incubator-teaclave-trustzone-sdk' },
-              { label: 'Teaclave Java TEE SDK', href: 'https://github.com/apache/incubator-teaclave-java-tee-sdk' },
-              { label: 'Teaclave Website', href: 'https://github.com/apache/incubator-teaclave-website' }
+              { label: 'Teaclave', href: 'https://github.com/apache/teaclave' },
+              { label: 'Teaclave SGX SDK', href: 'https://github.com/apache/teaclave-sgx-sdk' },
+              { label: 'Teaclave TrustZone SDK', href: 'https://github.com/apache/teaclave-trustzone-sdk' },
+              { label: 'Teaclave Java TEE SDK', href: 'https://github.com/apache/teaclave-java-tee-sdk' },
+              { label: 'Teaclave Website', href: 'https://github.com/apache/teaclave-website' }
             ],
             position: 'right',
           },
@@ -222,11 +222,8 @@ const config = {
       footer: {
         style: 'dark',
         copyright: `<div style="font-size:.7rem; text-align:left;">`
-          + `Apache Teaclave (incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. `
-          + `Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. `
-          + `While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. `
-          + `Copyright © 2020 The Apache Software Foundation. `
-          + `Licensed under the Apache License, Version 2.0. Apache Teaclave, Apache, the Apache feather, and the Apache Teaclave project logo are either trademarks or registered trademarks of the Apache Software Foundation.`
+          + `Copyright © 2019-2025, The Apache Software Foundation`
+          + `Licensed under the Apache License, Version 2.0. Apache Teaclave™, Apache, the Apache feather, and the Apache Teaclave™ project logo are either trademarks or registered trademarks of the Apache Software Foundation.`
           + `</div>`,
       },
       prism: {

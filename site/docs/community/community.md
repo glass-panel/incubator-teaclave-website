@@ -4,7 +4,7 @@ permalink: /community
 
 # Community
 
-Welcome to the Teaclave community. Here are several ways that you can get involved.
+Welcome to the Apache Teaclave™  community. Here are several ways that you can get involved.
 
 ## Mailing Lists
 
@@ -25,7 +25,7 @@ mailing list.
 ## GitHub Issues
 
 You can also ask questions, propose features, and report bugs in Teaclave's
-[GitHub issues](https://github.com/apache/incubator-teaclave/issues). Watch the
+[GitHub issues](https://github.com/apache/teaclave/issues). Watch the
 project on GitHub to receive latest updates.
 
 ## Twitter
